@@ -204,3 +204,18 @@ nav a:hover {
     text-align: center;
     background: #111;
 }
+
+/* Typewriter Text */
+.dynamic-text {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+#type-text {
+    color: #ff7a0d;
+    border-right: 3px solid #ff7a0d;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
