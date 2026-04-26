@@ -41,9 +41,7 @@ font-weight:500;
 transition:0.3s;
 }
 
-nav a:hover{
-color:#ff4d4d;
-}
+nav a:hover
 
 /* Hamburger */
 
@@ -178,10 +176,15 @@ margin-bottom:80px;
 grid-template-columns:repeat(2,1fr);
 }
 
+/* ✅ FIXED SHORTS SECTION */
 .short-videos{
-grid-template-columns:repeat(2,300px);
+display:grid;
+grid-template-columns:repeat(4, 250px);
+gap:30px;
 justify-content:center;
 }
+
+/* Video Cards */
 
 .video-card iframe{
 width:100%;
@@ -251,6 +254,7 @@ display:flex;
 grid-template-columns:1fr;
 }
 
+/* ✅ MOBILE: stack shorts */
 .short-videos{
 grid-template-columns:1fr;
 }
